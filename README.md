@@ -78,9 +78,9 @@ open index.html
 
 - Renk Paleti:
 
- - rgb(52, 73, 94) — Koyu mavi-gri (buton arka planı)
- - #FF0000 — Kırmızı (silme butonu)
- - lightblue — Açık mavi (düzenleme butonu)
+  - rgb(52, 73, 94) — Koyu mavi-gri (buton arka planı)
+  - #FF0000 — Kırmızı (silme butonu)
+  - lightblue — Açık mavi (düzenleme butonu)
 
 
 - Font: system-ui, Arial, Helvetica (sistem fontu)
