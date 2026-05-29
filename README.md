@@ -39,51 +39,49 @@ localStorage tabanlı, tarayıcıda çalışan sade bir öğrenci yönetim uygul
 
 
 ### Proje Yapısı
-| Proje Yapısı |
-|---|
-| `student-automation/` |
-| `├── index.html` |
-| `└── assets/` |
-| `    ├── css/` |
-| `    │   └── style.css` |
-| `    └── js/` |
-| `        └── students.js` |
+student-automation/ <br>
+├── index.html <br>
+└── assets/ <br>
+    ├── css/ <br>
+    │   └── style.css <br>
+    └── js/ <br>
+        └── students.js <br>
 
 ### Uygulama Akışı
-Sayfa Açılır
-    │
-    ▼
-localStorage'da veri var mı?
-    │
-    ├── Hayır → initialStudents yazılır
-    │
-    └── Evet  → localStorage'dan okunur
-                       │
-                       ▼
-                 studentsList() çağrılır → Kartlar DOM'a basılır
+Sayfa Açılır <br>
+    │ <br>
+    ▼ <br>
+localStorage'da veri var mı? <br>
+    │ <br>
+    ├── Hayır → initialStudents yazılır <br>
+    │ <br>
+    └── Evet  → localStorage'dan okunur <br>
+                       │ <br>
+                       ▼ <br>
+                 studentsList() çağrılır → Kartlar DOM'a basılır <br>
 
-🚀 Kurulum
+## Kurulum
 Proje herhangi bir bağımlılık gerektirmez. Klonladıktan sonra doğrudan tarayıcıda açabilirsiniz.
 bash# Repoyu klonlayın
 git clone https://github.com/kullanici-adi/student-automation.git
 
-# Proje klasörüne girin
+### Proje klasörüne girin
 cd student-automation
 
-# index.html dosyasını tarayıcıda açın
+### index.html dosyasını tarayıcıda açın
 open index.html
 
-Not: students.js dosyası defer ile yüklenir; bu nedenle script, HTML tamamen parse edildikten sonra çalışır.
+#### Not: students.js dosyası defer ile yüklenir; bu nedenle script, HTML tamamen parse edildikten sonra çalışır.
 
 
-🎨 Tasarım Detayları
+## Tasarım Detayları
 
-Renk Paleti:
+- Renk Paleti:
 
-rgb(52, 73, 94) — Koyu mavi-gri (buton arka planı)
-#FF0000 — Kırmızı (silme butonu)
-lightblue — Açık mavi (düzenleme butonu)
+ - rgb(52, 73, 94) — Koyu mavi-gri (buton arka planı)
+ - #FF0000 — Kırmızı (silme butonu)
+ - lightblue — Açık mavi (düzenleme butonu)
 
 
-Font: system-ui, Arial, Helvetica (sistem fontu)
-Kart Efekti: hover durumunda translateY(-5px) ile yukarı kalkma animasyonu
+- Font: system-ui, Arial, Helvetica (sistem fontu)
+- Kart Efekti: hover durumunda translateY(-5px) ile yukarı kalkma animasyonu
