@@ -39,13 +39,15 @@ localStorage tabanlı, tarayıcıda çalışan sade bir öğrenci yönetim uygul
 
 
 ### Proje Yapısı
-student-automation/ <br>
-├── index.html <br>
-└── assets/ <br>
-    ├── css/ <br>
-    │   └── style.css <br>
-    └── js/ <br>
-        └── students.js <br>
+| Proje Yapısı |
+|---|
+| `student-automation/` |
+| `├── index.html` |
+| `└── assets/` |
+| `    ├── css/` |
+| `    │   └── style.css` |
+| `    └── js/` |
+| `        └── students.js` |
 
 ### Uygulama Akışı
 Sayfa Açılır
