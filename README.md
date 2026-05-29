@@ -6,6 +6,7 @@ localStorage tabanlı, tarayıcıda çalışan sade bir öğrenci yönetim uygul
 
 [Projenin deploy edildikten sonra önizlemesi.](https://dursunkokturk.github.io/JavaScript-Project-Student-Automation/)
 
+![Proje Görseli](assets/img/javascript-project-student-automation.png)
 
 ## Özellikler
 
