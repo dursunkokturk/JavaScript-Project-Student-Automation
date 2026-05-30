@@ -4,7 +4,7 @@ localStorage tabanlı, tarayıcıda çalışan sade bir öğrenci yönetim uygul
 
 ## Canlı Önizleme
 
-[Projenin deploy edildikten sonra önizlemesi.](https://dursunkokturk.github.io/JavaScript-Project-Student-Automation/)
+[Proje önizlemesi.](https://dursunkokturk.github.io/JavaScript-Project-Student-Automation/)
 
 ![Proje Görseli](assets/img/javascript-project-student-automation.png)
 
@@ -19,7 +19,6 @@ localStorage tabanlı, tarayıcıda çalışan sade bir öğrenci yönetim uygul
 - localStorage Kalıcılığı — Sayfa yenilendiğinde veriler korunur; ilk açılışta başlangıç verisi otomatik yazılır
 - Duyarlı Kart Tasarımı — Mobilsde tek sütun, tablette iki sütun, masaüstünde üç sütun
 
-
 ## Duyarlı Düzenler
 
 | Ekran    | Genişlik         | Düzen                                       |
@@ -28,16 +27,13 @@ localStorage tabanlı, tarayıcıda çalışan sade bir öğrenci yönetim uygul
 | Tablet   | > 767px          | İki sütunlu kart ızgarası                   |
 | Masaüstü | > 1024px         | Üç sütunlu kart ızgarası, yatay buton grubu |
 
-
 ## Teknolojiler
- 
 
 | Teknoloji  | Açıklama                                        |
 | ---------- |-------------------------------------------------|
 | HTML5      | Semantik sayfa yapısı                           |
 | CSS3       | Flexbox, @media sorguları, kart tasarımı        |
 | JavaScript | DOM manipülasyonu, localStorage, dizi işlemleri |
-
 
 ### Proje Yapısı
 student-automation/ <br>
@@ -62,18 +58,18 @@ localStorage'da veri var mı? <br>
                  studentsList() çağrılır → Kartlar DOM'a basılır <br>
 
 ## Kurulum
-Proje herhangi bir bağımlılık gerektirmez. Klonladıktan sonra doğrudan tarayıcıda açabilirsiniz.
-bash# Repoyu klonlayın
-git clone https://github.com/kullanici-adi/student-automation.git
+Proje herhangi bir bağımlılık gerektirmez. Klonladıktan sonra doğrudan tarayıcıda açabilirsiniz. <br>
+bash# Repoyu klonlayın <br>
+git clone https://github.com/dursunkokturk/JavaScript-Project-Student-Automation.git
 
 ### Proje klasörüne girin
-cd student-automation
+cd JavaScript-Project-Student-Automation
 
 ### index.html dosyasını tarayıcıda açın
-open index.html
+Proje klasörü içinde çift tıklayarak yada <br>
+Projeyi VSCode içinde açıp index.html dosyasının üzerinde sağ tıkladıktan sonra "Open With Live Server" tıklayarak projeyi browser'da açıyoruz.
 
 #### Not: students.js dosyası defer ile yüklenir; bu nedenle script, HTML tamamen parse edildikten sonra çalışır.
-
 
 ## Tasarım Detayları
 
@@ -95,6 +91,7 @@ A simple localStorage-based student management app that runs in the browser. Sup
 
 ## Live Preview
 [Live preview after the project is deployed.](https://dursunkokturk.github.io/JavaScript-Project-Student-Automation/)
+![Proje Görseli](assets/img/javascript-project-student-automation.png)
 
 ## Features
 
@@ -146,15 +143,16 @@ Is there data in localStorage? <br>
                  studentsList() called → Cards rendered to DOM <br>
 
 ## Installation
-The project requires no dependencies. After cloning, you can open it directly in the browser.
-bash# Clone the repo
-git clone https://github.com/username/student-automation.git
+The project requires no dependencies. After cloning, you can open it directly in the browser. <br>
+bash# Clone the repo <br>
+git clone https://github.com/dursunkokturk/JavaScript-Project-Student-Automation.git
 
 #### Navigate to the project folder
-cd student-automation
+cd JavaScript-Project-Student-Automation
 
 ### Open index.html in the browser
-open index.html
+Open it by double-clicking inside the project folder, or <br>
+open the project in VSCode, right-click on the index.html file, and select "Open With Live Server" to launch it in the browser.
 
 #### Note: students.js is loaded with defer, so the script runs only after the HTML is fully parsed.
 
